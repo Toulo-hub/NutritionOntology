@@ -1,0 +1,47 @@
+.contenu {
+    width: 40%;
+    height: 400px;
+    border: 1px solid rgb(40, 75, 190);
+    border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;
+    display: inline-block;
+    padding: 15px;
+    background-color: rgb(237, 239, 248);
+}
+
+input[type=text] { 
+    padding: 5px 10px; 
+    box-sizing: border-box; 
+    border: 2px solid rgb(40, 75, 190); border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 14px;
+    color: rgb(112, 109, 97);
+}
+input[type=text]:focus{border: 3px solid rgb(40, 75, 190);} 
+
+.recherche {
+    background-color:rgb(40, 75, 190) ; 
+    border: 2px rgb(40, 75, 190); color: white; 
+    padding: 4px 10px; margin-left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 14px;
+    text-decoration: none; cursor: pointer;
+}
+
+.resultat {
+    float: right;
+    width: 55%;
+    border: 1px solid blue;
+}
+
+a {
+    background-color:rgb(40, 75, 190) ; 
+    border: 2px rgb(40, 75, 190); color: white; border-radius: 5px;
+    padding: 4px 10px; margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 20px;
+    text-decoration: none; cursor: pointer; 
+    display: inline-block;
+}
+a:hover {
+    background-color: rgb(50, 50, 50);
+}

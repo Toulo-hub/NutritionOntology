@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "ontologienutrition"
+  "defaultProject": "ontologienutrition",
+  "cli": {
+    "analytics": "e0554d52-0772-4efe-aab9-6297979b6c95"
+  }
 }
